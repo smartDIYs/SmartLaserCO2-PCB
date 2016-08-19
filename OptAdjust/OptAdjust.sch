@@ -1,0 +1,145 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:OptAdjust-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Opt Adjust"
+Date "13 jan 2016"
+Rev "1.0.0"
+Comp "smartDIYs Co.,Ltd."
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L POT PM1
+U 1 1 5695AC43
+P 6800 4550
+F 0 "PM1" H 6800 4450 50  0000 C CNN
+F 1 "PMETER" H 6800 4550 50  0000 C CNN
+F 2 "~" H 6800 4550 60  0000 C CNN
+F 3 "~" H 6800 4550 60  0000 C CNN
+	1    6800 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_PUSH SW1
+U 1 1 5695ACF6
+P 6800 3650
+F 0 "SW1" H 6950 3760 50  0000 C CNN
+F 1 "TACT_SWITCH" H 6800 3570 50  0000 C CNN
+F 2 "~" H 6800 3650 60  0000 C CNN
+F 3 "~" H 6800 3650 60  0000 C CNN
+	1    6800 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_5 J1
+U 1 1 5695BB2C
+P 4800 4150
+F 0 "J1" V 4750 4150 50  0000 C CNN
+F 1 "CONN_5" V 4850 4150 50  0000 C CNN
+F 2 "~" H 4800 4150 60  0000 C CNN
+F 3 "~" H 4800 4150 60  0000 C CNN
+	1    4800 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5200 3950 6200 3950
+Wire Wire Line
+	6200 3950 6200 3350
+Wire Wire Line
+	6200 3350 6800 3350
+Wire Wire Line
+	5200 4250 6500 4250
+Wire Wire Line
+	6500 4250 6500 4550
+Wire Wire Line
+	6500 4550 6650 4550
+Wire Wire Line
+	5200 4350 6250 4350
+Wire Wire Line
+	6250 4350 6250 4800
+Wire Wire Line
+	6250 4800 6800 4800
+$Comp
+L GND #PWR01
+U 1 1 5695D5F0
+P 7050 4100
+F 0 "#PWR01" H 7050 4100 30  0001 C CNN
+F 1 "GND" H 7050 4030 30  0001 C CNN
+F 2 "" H 7050 4100 60  0000 C CNN
+F 3 "" H 7050 4100 60  0000 C CNN
+	1    7050 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 3950 6800 4300
+Wire Wire Line
+	6600 4100 7050 4100
+Connection ~ 6800 4100
+$Comp
+L GND #PWR02
+U 1 1 5695D61B
+P 5450 4100
+F 0 "#PWR02" H 5450 4100 30  0001 C CNN
+F 1 "GND" H 5450 4030 30  0001 C CNN
+F 2 "" H 5450 4100 60  0000 C CNN
+F 3 "" H 5450 4100 60  0000 C CNN
+	1    5450 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 4050 5350 4050
+Wire Wire Line
+	5350 4050 5350 4150
+Wire Wire Line
+	5350 4100 5450 4100
+Wire Wire Line
+	5350 4150 5200 4150
+Connection ~ 5350 4100
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 5695D681
+P 6600 4100
+F 0 "#FLG03" H 6600 4195 30  0001 C CNN
+F 1 "PWR_FLAG" H 6600 4280 30  0000 C CNN
+F 2 "" H 6600 4100 60  0000 C CNN
+F 3 "" H 6600 4100 60  0000 C CNN
+	1    6600 4100
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

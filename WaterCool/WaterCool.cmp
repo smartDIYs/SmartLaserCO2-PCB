@@ -1,0 +1,38 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2016/01/10 13:17:59
+
+BeginCmp
+TimeStamp = /55CC38E6;
+Reference = J1;
+ValeurCmp = DC-JACK;
+IdModule  = DC-005;
+EndCmp
+
+BeginCmp
+TimeStamp = /5691DB1A;
+Reference = J2;
+ValeurCmp = POMP;
+IdModule  = 640454-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CC3A85;
+Reference = J3;
+ValeurCmp = FAN1;
+IdModule  = B2B-XH-A;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CC3A92;
+Reference = J4;
+ValeurCmp = FAN2;
+IdModule  = B2B-XH-A;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CC3A98;
+Reference = J5;
+ValeurCmp = FAN3;
+IdModule  = B2B-XH-A;
+EndCmp
+
+EndListe

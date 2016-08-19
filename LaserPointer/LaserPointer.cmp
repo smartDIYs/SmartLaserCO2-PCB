@@ -1,0 +1,24 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2015/09/28 17:01:56
+
+BeginCmp
+TimeStamp = /5608E1CE;
+Reference = BT1;
+ValeurCmp = BATTERY;
+IdModule  = CH25-2032LF;
+EndCmp
+
+BeginCmp
+TimeStamp = /5608E2AB;
+Reference = J1;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5608E292;
+Reference = SW1;
+ValeurCmp = SWITCH_INV;
+IdModule  = SS-12D00-G5;
+EndCmp
+
+EndListe
